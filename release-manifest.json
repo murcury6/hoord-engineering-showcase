@@ -17,8 +17,16 @@
       "sha256": "423931d8ea95992d6570ce93de25a4941f0bafb66397f9870fe330ab2e4ca962"
     },
     {
+      "path": "docs/LOCKED_DEMO.md",
+      "sha256": "9e206f79964d37f54c6c5990d8f2e6ad2426b6dd025361774dc165e1779a83a4"
+    },
+    {
       "path": "docs/PIPELINE.md",
       "sha256": "5966bd23049d7355910cd95c6dd6c3b7a9d3c2585370edcb3837024dd0bb0382"
+    },
+    {
+      "path": "docs/PLAYABLE_RELEASE.json",
+      "sha256": "ea4b212c0969c2e6c59c0965583187078f3f7f504a0a7befc299217075318c8d"
     },
     {
       "path": "docs/PROVENANCE.md",
@@ -30,7 +38,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "5e297eba6ad27adb6eecdde28315c1d0460824da51b9001f3c3dcceedbf31df2"
+      "sha256": "32a5d0b8043229204ed1b033fb9933e1af2eadadc81e1e61c4069f3d1f35b090"
     },
     {
       "path": "reference/Graphics/GAiQueue.java",

@@ -4,7 +4,17 @@ Selected engineering work from **Hoord**, a Java space game and its desktop deve
 
 This repository exposes a reviewed set of real non-ML algorithms, AI integration code and a runnable presentation of the development workflow. Hoord's actual models and learned artifacts remain private.
 
-## Explore the work
+## Play the generated-asset demo
+
+**LLM-generated game assets on less than 8 GB VRAM, using proprietary Hoord game models with 8 million parameters or fewer each** — creator-reported generation figures; the models themselves remain private.
+
+[Download the approved playable demo](https://github.com/murcury6/hoord-engineering-showcase/releases/tag/v0.1.0-locked-demo) · [Quantitative breakdown, tests and limitations](docs/LOCKED_DEMO.md)
+
+The locked sandbox includes **7 unique ships, 6 enemies, 72 distinct asteroids, 3 background depth planes, 7 gas profiles and 1,620 saved shadow masks**, within **2,157 SHA-256-locked PNGs**. Physics runs at **120 Hz** and enemy tracking at **45 Hz**. No models, weights, tensors or API keys are shipped; the demo performs **zero runtime AI inference or asset generation**.
+
+The approximately **62-second local cache-regression test** reported roughly **64–65 FPS**, **9.29 ms p99 UI-thread task duration**, and **0 tasks over 50 ms among 8,001 measured events**. These are scoped local measurements, not guaranteed FPS or a zero-lag claim; methodology is documented above.
+
+## Explore the engineering work
 
 | Area | Included implementation | What to look for |
 | --- | --- | --- |
@@ -38,8 +48,8 @@ The Approval tab demonstrates a provider boundary using an explicitly synthetic 
 
 ## Private boundary
 
-AI application integration is included; the actual model implementation, training code, architecture, tensor, learned weight, checkpoint, trained adapter, dataset, prompt collection, feedback record and proprietary assets are excluded. No private Git history was imported. Each production file was reviewed individually; the public repository is not a copy of the private project.
+AI application integration is included; actual model implementation, training code, architecture, tensors, learned weights, checkpoints, adapters, datasets, private prompts and feedback records are excluded. Only the explicitly approved finished assets in the playable release are shared; the rest of the proprietary asset collection remains private. No private Git history was imported. Each production file was reviewed individually; the public repository is not a copy of the private project.
 
-Every publishable file is explicitly listed with its SHA-256 in `release-manifest.json`. `tools/verify-release.ps1` rejects unexpected files, changed reviewed content, links, disallowed types, credential patterns and private ML dependencies. It is a guardrail alongside code review, not a guarantee that arbitrary additions are safe.
+Every publishable repository file is explicitly listed with its SHA-256 in `release-manifest.json`. `tools/verify-release.ps1` rejects unexpected files, changed reviewed content, links, disallowed types, credential patterns and private ML dependencies. The playable ZIP has its own asset manifest and release checksum. These are guardrails alongside review, not a guarantee that arbitrary additions are safe.
 
 Source is shared for portfolio inspection. See [LICENSE](LICENSE).
