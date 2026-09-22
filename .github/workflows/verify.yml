@@ -1,0 +1,15 @@
+name: Verify public showcase
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Verify reviewed public files
+        shell: pwsh
+        run: ./tools/verify-release.ps1
+      - name: Compile and exercise synthetic examples
+        shell: pwsh
+        run: ./tools/run.ps1 -Test
