@@ -26,4 +26,12 @@ All are under `src/main/java`. These files contain no AI model implementation or
 
 ## Publication
 
+### Private video and Sheet transport
+
+`reference/remote-review` adds the production `pc_video.py`, `sheets_review.py`, Sheets-only manifest, bridge tests, and `video_host` Go sources with pinned dependency metadata. The bound spreadsheet ID in `google_sheets_bridge.gs` is replaced by a placeholder; its machine-key verifier remains an unconfigured placeholder. Personal configuration, private hostnames, key material, recordings and state files are not copied.
+
+The transport's Python tests are adapted to import `test_worker_stub.py` instead of the private worker. That new stub supplies synthetic storage and empty metrics only. The README and architecture diagram were written for the showcase. The actual worker, native model adapter, generation/training code and model artifacts remain private.
+
+The connection sources are not compiled into the offline Java demo. They have separate Python, Node and Go checks documented in their folder. Adding the reviewed source extensions to the release verifier is restricted to this exact integration directory; manifest hashing and credential/model scanning still apply to every file.
+
 The public history starts with this reviewed selection. A prior, broader local preparation draft was quarantined before publication and is not part of this repository or its Git objects. Updating the showcase requires a fresh review and explicit update to the per-file release manifest; bulk synchronization from the private project is not supported.

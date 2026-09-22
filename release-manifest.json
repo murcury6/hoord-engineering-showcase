@@ -10,7 +10,7 @@
     },
     {
       "path": ".gitignore",
-      "sha256": "13f0802df91a9a876dfa92ef16ab646bae26dad454461ce6f39d884ad75985aa"
+      "sha256": "ea276115d32b754b09964af2b36eefecee26786ceb44b3d0606509bd9331cd04"
     },
     {
       "path": "docs/AI_INTEGRATION.md",
@@ -22,7 +22,7 @@
     },
     {
       "path": "docs/PROVENANCE.md",
-      "sha256": "e10790e6b4c4a053ceccfffac5ae385915ea903832851781ea519e0751780f10"
+      "sha256": "5b01fc784d3f3e68d9b639c3fd7663e9928205a78c9fb3d6e1e69e1fd4011bb5"
     },
     {
       "path": "LICENSE",
@@ -30,11 +30,67 @@
     },
     {
       "path": "README.md",
-      "sha256": "9d2516d885182d0dfd5e6f1a25eb7d5b20c9068567b65646dd3761441a0701c4"
+      "sha256": "5e297eba6ad27adb6eecdde28315c1d0460824da51b9001f3c3dcceedbf31df2"
     },
     {
       "path": "reference/Graphics/GAiQueue.java",
       "sha256": "4d1c16ade373ddbdb8f937494eeecd4ea6c12765f47dc49d642fccd6cad64f3e"
+    },
+    {
+      "path": "reference/remote-review/appsscript.json",
+      "sha256": "c862bd548acfac0af1bdd1eec17fe66dcef2d339da428c9f55b604e952794a66"
+    },
+    {
+      "path": "reference/remote-review/google_sheets_bridge.gs",
+      "sha256": "45e9584468d44b533e08f1c916d1d2dd3be33c6ef0423858f20af324ae3184b6"
+    },
+    {
+      "path": "reference/remote-review/pc_video.py",
+      "sha256": "932e34336606128ea5a4e25caedd97dbe8bad1bc1abbc60aab88279cb0b73664"
+    },
+    {
+      "path": "reference/remote-review/README.md",
+      "sha256": "749b2e1fbd47761396cb2434562c12694f953520751bda7290866fcda200aee9"
+    },
+    {
+      "path": "reference/remote-review/sheets_review.py",
+      "sha256": "ba8f1fb7d603c4a8d681a0ebba8e22c7f3825710b1e8a51f4929a14ac1b1e688"
+    },
+    {
+      "path": "reference/remote-review/test_google_sheets_bridge.cjs",
+      "sha256": "144641545967405d7e8d31ebee21a432a8f0204e4322dd322342aaefcf890b59"
+    },
+    {
+      "path": "reference/remote-review/test_sheets_review.py",
+      "sha256": "f6b9c3287544143e8b3fb1fabaa5f142e1ca830f3e4a7975e90318bef3a5adba"
+    },
+    {
+      "path": "reference/remote-review/test_worker_stub.py",
+      "sha256": "1463ddc2a9008b46a60010b8f2a2a54d10c2dd0c870ee68a60b3f1bf33bdc6ea"
+    },
+    {
+      "path": "reference/remote-review/video_host/go.mod",
+      "sha256": "cbf04dbaee18696edaa6c1bd98f6d97bfc4a6e6962c2ea7c3d63944f79dd85f5"
+    },
+    {
+      "path": "reference/remote-review/video_host/go.sum",
+      "sha256": "8f6c61114602cfc4280b9f0a2e7494d91664d05214ef08e53f5b66a00995e63c"
+    },
+    {
+      "path": "reference/remote-review/video_host/handler_test.go",
+      "sha256": "d4b7f6a49e6d29c95acb79ea3a8acc93648446dd882b2a7e09d7d35c3c01d89b"
+    },
+    {
+      "path": "reference/remote-review/video_host/handler.go",
+      "sha256": "05fc9d3d67f8191f7e80222ba6db72395ddb3c79c8a4c8257645469805d713a5"
+    },
+    {
+      "path": "reference/remote-review/video_host/main.go",
+      "sha256": "84048cff90178173417f7acd15af5f49d084ffdd50155d977decaf36e6c6e835"
+    },
+    {
+      "path": "reference/remote-review/video_host/process_windows.go",
+      "sha256": "3fef127659003a286e559eef3b64aab16e0dfd7037f5aa487ce88a45c195a0de"
     },
     {
       "path": "src/demo/java/ApprovalDemo.java",
@@ -90,7 +146,7 @@
     },
     {
       "path": "tools/verify-release.ps1",
-      "sha256": "3b4561518c74e875d8b5e192aecd0855be4d6fe0f4229d323a7dab2c2b76e3d4"
+      "sha256": "895d15c4f6ca464974922e2102967a57ea6e61f5f642865556dade4cc0f0a2ab"
     }
   ],
   "schema": "hoord-public-review/1"
