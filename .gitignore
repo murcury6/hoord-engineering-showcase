@@ -32,3 +32,11 @@ checkpoints/
 adapters/
 __pycache__/
 node_modules/
+*.exe
+*.pyc
+**/tailscaled.state
+**/tailscaled.log.conf
+**/sheets-connection.json
+**/connection.json
+**/sheet-bridge.url
+**/google_sheets_bridge.prepared.gs

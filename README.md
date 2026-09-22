@@ -14,6 +14,7 @@ This repository exposes a reviewed set of real non-ML algorithms, AI integration
 | Runtime utilities | [BoundedCache.java](src/main/java/hoordGame/BoundedCache.java), [ContentHash.java](src/main/java/hoordGame/ContentHash.java) | Entry-bounded caching and streaming content identities. These use standard cache/hash techniques. |
 | Development pipeline | [Pipeline walkthrough](docs/PIPELINE.md) | All eight Dev Panel stages, their responsibilities, review boundaries and the handoff to gameplay. |
 | Using AI safely in the workflow | [Production image queue](reference/Graphics/GAiQueue.java), [process lifecycle](src/main/java/hoordGame/ProcessLifecycle.java), [integration guide](docs/AI_INTEGRATION.md) | Request scheduling, lifecycle events, private-provider calls and human approval without shipping models. |
+| Remote human review | [Private PC video connection](reference/remote-review/README.md) | Phone-to-PC video streaming over Tailscale, Google Sheets ratings, permanent output identities, full-duration evidence and archival before removal. Transport source only; no model or training implementation. |
 
 ## Run the showcase
 
