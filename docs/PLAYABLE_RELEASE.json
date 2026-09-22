@@ -1,0 +1,18 @@
+{
+  "release": "v0.1.0-locked-demo",
+  "asset": "Hoord-Locked-Demo-v0.1.0.zip",
+  "bytes": 54823143,
+  "sha256": "69e206939a49ce510c7673c340dd8cd4dfc62ff339625038db57914352d57e5e",
+  "locked_asset_id": "79518972df1d",
+  "png_assets": 2157,
+  "models_included": false,
+  "runtime_generation": false,
+  "online_leaderboard": false,
+  "score_resets_on_player_death": true,
+  "generation_claims": {
+    "source": "Creator-reported; not independently benchmarked for this release",
+    "llm_generated_game_assets": true,
+    "maximum_parameters_per_proprietary_model": 8000000,
+    "reported_vram_gb_exclusive_upper_bound": 8
+  }
+}
