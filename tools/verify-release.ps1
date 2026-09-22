@@ -20,6 +20,7 @@ $failures = [System.Collections.Generic.List[string]]::new()
 $secretPatterns = @(
     '(?i)\b(?:sk-(?:proj-|ant-)?[A-Za-z0-9_-]{20,}|gh[pousr]_[A-Za-z0-9]{25,}|github_pat_[A-Za-z0-9_]{25,}|hf_[A-Za-z0-9]{25,}|AIza[A-Za-z0-9_-]{30,}|AKIA[A-Z0-9]{16})\b',
     '-----BEGIN (?:RSA |EC |OPENSSH |DSA )?PRIVATE KEY-----',
+    '\btskey-[A-Za-z]+-[A-Za-z0-9_-]{20,}\b',
     '(?i)(?:api[_-]?key|password|access[_-]?token|client[_-]?secret)\s*[:=]\s*["''][A-Za-z0-9_+/=-]{16,}["'']',
     '(?i)(?:https?://)[^\s/:]+:[^\s/@]+@',
     '(?i)[A-Z]:[\\/]+Users[\\/]',
@@ -38,7 +39,9 @@ function Inspect-Directory([string]$Directory) {
         if ($relative -ne 'release-manifest.json' -and -not $approved.ContainsKey($relative)) {
             $failures.Add("Unreviewed file: $relative"); continue
         }
-        if ($item.Extension -notin @('.java', '.md', '.ps1', '.json', '.yml') -and
+        $reviewTransportSource = $relative.StartsWith('reference/remote-review/') -and
+            $item.Extension -in @('.py', '.gs', '.cjs', '.go', '.mod', '.sum')
+        if (-not $reviewTransportSource -and $item.Extension -notin @('.java', '.md', '.ps1', '.json', '.yml') -and
             $relative -notin @('LICENSE', '.gitignore', '.gitattributes')) {
             $failures.Add("Disallowed file type: $relative"); continue
         }
