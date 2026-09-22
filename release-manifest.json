@@ -1,0 +1,97 @@
+{
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "sha256": "8dfa144baa3f14aec88ac49337ac1dda5398bfddc81bc917af58d87effd9907a"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "13f0802df91a9a876dfa92ef16ab646bae26dad454461ce6f39d884ad75985aa"
+    },
+    {
+      "path": "docs/AI_INTEGRATION.md",
+      "sha256": "423931d8ea95992d6570ce93de25a4941f0bafb66397f9870fe330ab2e4ca962"
+    },
+    {
+      "path": "docs/PIPELINE.md",
+      "sha256": "5966bd23049d7355910cd95c6dd6c3b7a9d3c2585370edcb3837024dd0bb0382"
+    },
+    {
+      "path": "docs/PROVENANCE.md",
+      "sha256": "e10790e6b4c4a053ceccfffac5ae385915ea903832851781ea519e0751780f10"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "08028a39a374f25859fcea7ef354c003ec99dfc9abf257d1f63d7ea59239d425"
+    },
+    {
+      "path": "README.md",
+      "sha256": "9d2516d885182d0dfd5e6f1a25eb7d5b20c9068567b65646dd3761441a0701c4"
+    },
+    {
+      "path": "reference/Graphics/GAiQueue.java",
+      "sha256": "4d1c16ade373ddbdb8f937494eeecd4ea6c12765f47dc49d642fccd6cad64f3e"
+    },
+    {
+      "path": "src/demo/java/ApprovalDemo.java",
+      "sha256": "605a94429e9fad1008c61720f612f94c5f050d782a711ed4ed664b94cb12c1c4"
+    },
+    {
+      "path": "src/demo/java/hoordGame/ProjectPaths.java",
+      "sha256": "6d1b6b04710aea816587923c7f186b426cc5a84723d9e491e5d71c7e18be9830"
+    },
+    {
+      "path": "src/demo/java/Obstacle/Obstacle.java",
+      "sha256": "1060d8a9460b3b0d8760902b750b1fb164aa012f4a0eb4492c538499494ba8bd"
+    },
+    {
+      "path": "src/demo/java/Showcase.java",
+      "sha256": "652b419f40fdfc8a24fc171cd8f3a4dc2823d8ba536f5535e827290038f5194c"
+    },
+    {
+      "path": "src/main/java/Cannon/CannonExpression.java",
+      "sha256": "130399060e7f8740f2a6f3c4f0d426312227bc6c3136298397effbd270fd0a09"
+    },
+    {
+      "path": "src/main/java/Enemy/PathFinder.java",
+      "sha256": "4162e8980869720b79a8dbd51f954893724c2e12879ea8463eb67eb1dfb56db7"
+    },
+    {
+      "path": "src/main/java/hoordGame/BoundedCache.java",
+      "sha256": "6cb3538f9325c5d5d620e804fab71d71d14fea21720e5b311bf58ed2d2041228"
+    },
+    {
+      "path": "src/main/java/hoordGame/ContentHash.java",
+      "sha256": "f42b7979965ec5a190c31f92a534bf6e8c1af65213002ef32db49fac407f1781"
+    },
+    {
+      "path": "src/main/java/hoordGame/ProcessLifecycle.java",
+      "sha256": "53c34b4af5dd127084e839b5c89f3033abbeec82e35518f263568bcbc926b657"
+    },
+    {
+      "path": "src/main/java/Sounds/SoundEffectGenerator.java",
+      "sha256": "3883e03cd571ada486e163533343fe1f2aacd66d5765688d121eb61ebf57ffb3"
+    },
+    {
+      "path": "src/main/java/Sounds/SoundsDevPanel.java",
+      "sha256": "a8faebc50dce10819c38d84419733ea29e70f2c47dcff56ec6328b1ee13d0d8c"
+    },
+    {
+      "path": "src/test/java/ShowcaseTests.java",
+      "sha256": "0f4530c3cfbdf26f884bb45c5cad622691171da954c03f612f7d78fa183c2c6b"
+    },
+    {
+      "path": "tools/run.ps1",
+      "sha256": "62958b2af8804cb542998fd360099b55f37ebe7be3c862c0c7ad0df29934536e"
+    },
+    {
+      "path": "tools/verify-release.ps1",
+      "sha256": "3b4561518c74e875d8b5e192aecd0855be4d6fe0f4229d323a7dab2c2b76e3d4"
+    }
+  ],
+  "schema": "hoord-public-review/1"
+}
